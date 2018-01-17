@@ -1,0 +1,15 @@
+//Python
+
+array=[2,33,45,77,4,2,1,56]
+print(array)
+
+min=array[0]
+max=array[0]
+for i in range(len(array)):
+    if min>array[i] :
+         min=array[i]
+for i in range(len(array)):
+    if max<array[i] :
+         max=array[i]
+print("The maximum element in the array is: ",max)
+print("The minimum element in the array is: ",min)

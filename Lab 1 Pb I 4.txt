@@ -1,0 +1,17 @@
+//Python
+
+num_str1=input('Input number 1: ')
+num_str2=input('Input number 2: ')
+num_str3=input('Input number 3: ')
+
+number1=int(num_str1)
+number2=int(num_str2)
+number3=int(num_str3)
+
+sum=number1+number2+number3
+multiply=number1*number2*number3
+average=sum/3
+
+print("The sum of the numbers is: ", sum)
+print("The product of the numbers is: ", multiply)
+print("The average of the numbers is: ", average)
